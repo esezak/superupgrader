@@ -10,6 +10,8 @@ A Fabric mod for Minecraft that introduces an item upgrade station. Place an ite
 
 Originally created by **EXEcheINZ** (*Upgrader* for Minecraft 1.21.11). Modernized and ported to **Minecraft 26.2 / Java 25** by **esezak**.
 
+![Super Upgrader interface showing the input item, success chance wheel, target item, and upgrade controls](readmeAssets/Item_Upgrader_GUI.png)
+
 ---
 
 ## Features
@@ -34,6 +36,8 @@ Originally created by **EXEcheINZ** (*Upgrader* for Minecraft 1.21.11). Moderniz
 The recipe unlocks automatically in your recipe book on your first world join, with no items or crafting required. Existing players also unlock it when they next join with the mod installed.
 
 Craft the Super Upgrader with 4 Gold Ingots, 4 Diamonds, and an Anvil:
+
+![Super Upgrader crafting recipe: four gold ingots in the corners, four diamonds on the edges, and an anvil in the center](readmeAssets/recipe.png)
 
 | | | |
 | :---: | :---: | :---: |
@@ -74,7 +78,9 @@ Points are appraisal values used to determine relative item worth and calculate 
 
 ### Success Rate Formula
 
-$$\text{Success Chance} = \text{clamp}\left(0.90 \times \frac{\text{Input Value}}{\text{Target Value}}, 0.1\%, 90.0\%\right)$$
+```math
+\text{Success Chance} = \text{clamp}\left(0.90 \times \frac{\text{Input Value}}{\text{Target Value}}, 0.1\%, 90.0\%\right)
+```
 
 - **Minimum rate:** 0.1%
 - **Maximum rate:** 90.0%

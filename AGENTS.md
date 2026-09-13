@@ -116,9 +116,19 @@ superupgrader/
 ### 3.2 Odds & Mathematical Model (`com.esezak.superupgrader.logic`)
 
 - **Formula ([UpgradeCalculator.java](src/main/java/com/esezak/superupgrader/logic/UpgradeCalculator.java)):**
-  $$\text{wagerValue} = \text{unitValue} \times \text{count} \times \text{durabilityFactor}$$
-  $$\text{rewardValue} = \text{targetUnitValue} \times \text{targetCount}$$
-  $$\text{chance} = \text{clamp}\left(0.90 \times \frac{\text{wagerValue}}{\text{rewardValue}}, 0.001, 0.90\right)$$
+
+  ```math
+  \text{wagerValue} = \text{unitValue} \times \text{count} \times \text{durabilityFactor}
+  ```
+
+  ```math
+  \text{rewardValue} = \text{targetUnitValue} \times \text{targetCount}
+  ```
+
+  ```math
+  \text{chance} = \text{clamp}\left(0.90 \times \frac{\text{wagerValue}}{\text{rewardValue}}, 0.001, 0.90\right)
+  ```
+
 - **Constants:**
   - `HOUSE_EDGE`: `0.90` (10% house margin)
   - `MIN_CHANCE`: `0.001` (0.1%)
