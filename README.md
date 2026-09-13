@@ -39,11 +39,6 @@ Craft the Super Upgrader with 4 Gold Ingots, 4 Diamonds, and an Anvil:
 
 ![Super Upgrader crafting recipe: four gold ingots in the corners, four diamonds on the edges, and an anvil in the center](readmeAssets/recipe.png)
 
-| | | |
-| :---: | :---: | :---: |
-| Gold Ingot | Diamond | Gold Ingot |
-| Diamond | Anvil | Diamond |
-| Gold Ingot | Diamond | Gold Ingot |
 
 Hold the item and **right-click** to open the station.
 

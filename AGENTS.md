@@ -59,7 +59,7 @@ superupgrader/
 │   │       │   ├── items/upgrader.json       # Modern 1.21.4+ item model definition
 │   │       │   ├── lang/*.json               # Multilingual translations (21 locales supported)
 │   │       │   ├── models/item/upgrader.json # Item model JSON
-│   │       │   └── textures/item/upgrader.png# Original station item texture
+│   │       │   └── textures/item/upgrader.png# Super Upgrader station item texture
 │   │       ├── data/superupgrader/advancement/recipes/
 │   │       │   └── upgrader_item.json        # Unlocks the recipe on the player's first server tick
 │   │       ├── data/superupgrader/recipe/
