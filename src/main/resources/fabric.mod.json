@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "superupgrader",
+    "version": "${version}",
+    "name": "Super Upgrader",
+    "description": "Wager items on a spinner wheel to upgrade them into something better — or lose them trying.",
+    "authors": ["esezak"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/superupgrader/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.esezak.superupgrader.SuperUpgrader"],
+        "client": ["com.esezak.superupgrader.SuperUpgraderClient"]
+    },
+    "mixins": [
+        "superupgrader.mixins.json",
+        {
+            "config": "superupgrader.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.0",
+        "minecraft": "~26.2",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "unlock_right_away": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        ["unlock_right_away"]
+    ],
+    "rewards": {
+        "recipes": ["superupgrader:upgrader_item"]
+    }
+}
